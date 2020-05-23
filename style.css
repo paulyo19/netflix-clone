@@ -129,3 +129,9 @@ button {
     border: 1px solid rgba(255,255,255,.4);
 }
 
+button:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
