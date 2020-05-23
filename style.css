@@ -1,0 +1,51 @@
+#header {
+    background: black;
+    color: white;
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.logo {
+    float: left;
+    display: inline-block;
+    background: red;
+    padding: 45px;
+    margin-right: 25px;
+}
+
+.left-menu {
+    float: left;
+    display: inline-block;
+    background: blue;
+}
+
+.left-menu, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-menu, ul, li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.right-menu {
+    float: right;
+    display: inline-block;
+    color: black;
+    background: yellow;
+}
+
+
+.right-menu, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right-menu, ul, li {
+    display: inline-block;
+    padding: 15px;
+}
