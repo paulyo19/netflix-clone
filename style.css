@@ -6,6 +6,15 @@
     padding-right: 25px;
 }
 
+#header a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: red;
+}
+
 #large-image {
     background: url(images/witcher.jpg);
     background-repeat: no-repeat;
