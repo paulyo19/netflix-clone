@@ -14,10 +14,13 @@
     padding: 200px 25px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .logo {
     float: left;
     display: inline-block;
-    background: red;
     padding: 15px;
     margin-right: 25px;
 }
@@ -25,7 +28,6 @@
 .left-menu {
     float: left;
     display: inline-block;
-    background: blue;
 }
 
 .left-menu ul {
@@ -36,14 +38,13 @@
 
 .left-menu ul li {
     display: inline-block;
-    padding: 15px;
+    padding: 25px;
 }
 
 .right-menu {
     float: right;
     display: inline-block;
     color: black;
-    background: yellow;
 }
 
 
@@ -55,7 +56,16 @@
 
 .right-menu ul li {
     display: inline-block;
-    padding: 15px;
+    padding: 25px;
+}
+
+.right-menu ul li a{
+    color: white;
+
+}
+
+.left-menu ul li a{
+    color: white;
 }
 
 .description-box {
@@ -67,18 +77,29 @@
     font-weight: 700;
     color:white;
     font-size: 60px;
+    margin: 0;
 }
 
 .description-box h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: white;
     font-size: 25px;
+    margin: 0;
 }
 
 .description-box h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     color:red;
+    margin: 0;
+}
+
+.description-box p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 18px;
+    margin: 25px 0 0 0;
 }
 
