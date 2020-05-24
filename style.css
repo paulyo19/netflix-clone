@@ -208,7 +208,7 @@ button:hover {
    cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 763px) {
     .video-boxes{
         width: 95%;
         margin: 2.5%;
@@ -216,7 +216,9 @@ button:hover {
     button{
      font-size: 4vw;
     }
-   
+    .left-menu{
+        display: none;
+    }
 }
 
 
