@@ -153,3 +153,39 @@ button:hover {
     font-size: 16px;
     margin: 2.5%;
 }
+
+.video1 {
+    background: url(images/stranger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 25px;
+}
+.video2 {
+    background: url(images/punisher.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 25px;
+}
+.video3 {
+    background: url(images/ozark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 25px;
+}
+.video4 {
+    background: url(images/narcos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 25px;
+}
+.video5 {
+    background: url(images/house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 25px;
+}
