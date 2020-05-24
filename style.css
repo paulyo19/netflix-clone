@@ -206,5 +206,17 @@ button:hover {
 
 .video-boxes:hover {
    cursor: pointer;
-
 }
+
+@media screen and (max-width: 600px) {
+    .video-boxes{
+        width: 95%;
+        margin: 2.5%;
+    }
+    button{
+     font-size: 4vw;
+    }
+   
+}
+
+
