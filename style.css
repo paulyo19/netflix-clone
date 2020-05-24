@@ -135,3 +135,21 @@ button:hover {
     cursor: pointer;
 }
 
+#video-section {
+    width: 100%;
+    background: black;
+}
+
+.row {
+    font-size: 0;
+    width: 100%;
+}
+
+.video-boxes {
+    display: inline-block;
+    background: red;
+    height: 150px;
+    width: 15%;
+    font-size: 16px;
+    margin: 2.5%;
+}
